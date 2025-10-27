@@ -13,7 +13,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: patcher
-          image: bitnami/kubectl:latest
+          image: registry.k8s.io/kubectl:v1.32.0
           command: ["/bin/sh", "-c"]
           args:
             - |
