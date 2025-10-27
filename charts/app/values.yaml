@@ -1,0 +1,6 @@
+namespace: navidrome
+name: navidrome
+image: ghcr.io/navidrome/navidrome:latest
+host: music.atarnet.org
+storageClass: microk8s-hostpath
+musicHostPath: /mnt/test/organized_music
